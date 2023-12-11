@@ -17,8 +17,9 @@ const Banner = () => {
                         <span className="font-bold">Github</span>
                     </a>
                     <a
-                        href="/path-to-your-resume.pdf"
-                        download="IstiakAhmedSarkerResume.pdf"
+                        href="https://drive.google.com/uc?id=1utgS9Lgiqgivc-xazvQ-cyEdqb4gE3Hp"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex items-center gap-2 border-b-4 border-teal-700 px-2 py-1 rounded hover:border-teal-300"
                     >
                         <FaDownload className="text-2xl"/>
