@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar/Navbar';
+import { Outlet } from 'react-router-dom';
 
 const Main = () => {
     return (
-        <div className='bg-gradient-to-b from-blue-900 to-blue-600 text-white font-montserrat'>
+        <div>
             <Navbar/>
+            <Outlet/>
         </div>
     );
 };

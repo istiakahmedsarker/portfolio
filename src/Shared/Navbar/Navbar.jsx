@@ -8,7 +8,7 @@ const Navbar = () => {
                     <h1 >Portfolio</h1>
                 </div>
                 <div className="">
-                    <ul className="flex space-x-4">
+                    <ul className="flex space-x-4 text-lg">
                         <li className="text-gray-300 hover:text-teal-300 transition-colors duration-300">
                             Home
                         </li>
